@@ -1,0 +1,18 @@
+{
+  "name": "realtime-device-track",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anzer Bin Ubaid",
+  "license": "ISC",
+  "description": "A realtime-device-track application using Leaflet and Socket.IO. This app captures the user's location, transmits it to a server, and displays the location on a map with default markers. The map updates in real-time as the user's location changes and removes markers when users disconnect.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
